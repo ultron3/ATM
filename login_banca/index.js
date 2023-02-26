@@ -9,37 +9,6 @@ return
 
 
 
-function Registrati()
-{
-    var username = document.modulo.username.value;
-    if (username == "")
-    {
-        alert("Inserisci una username!");
-    }
-    else if (ControlloUsername(username) == false)
-    {
-        alert("Hai scelto una username riservata!");
-    }
-    else
-    {
-        alert("OK");
-    }
-}
-
-function ControlloUsername(QualeUsername)
-{
-    var elenco = "admin administrator amministratore";
-    var negate = elenco.split(" ");
-    for (var u=0; u<negate.length; u++)
-    {
-        if (QualeUsername == negate[u])
-        {
-            return false;
-            break;
-        }
-    }
-}
-
 console.log("script ok");
 
 document.getElementById('submit').onclick = function (e) {
