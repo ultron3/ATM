@@ -14,10 +14,10 @@ while True:
         print("invia 1,2,3 or 4 only")
         continue
     if option ==1:
-        print("balance",balance)
+        print("balance £",balance)
     if option ==2:
-        print("balance",balance)
-        Withdraw=float(input("enter Withdraw amount"))
+        print("balance £",balance)
+        Withdraw=float(input("enter Withdraw amount £"))
         if Withdraw>0:
             forewardbalance=(balance-Withdraw)
         elif Withdraw>balance:
@@ -26,10 +26,10 @@ while True:
             print("none made")
     if option ==3:
         print("balance",balance)
-        deposit=float(input("enter desposit"))
+        deposit=float(input("enter desposit amount £"))
         if deposit>0:
              forewardbalance=(balance+deposit)
-             print("forewarbalance",forewardbalance)
+             print("forewarbalance £",forewardbalance)
         else:
             print("none depsoit made")
     if option ==4:
