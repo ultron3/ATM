@@ -11,6 +11,13 @@ return
 
 console.log("script ok");
 
+//eseguo un chiamata rest api sito unicredit
+fetch('/page', {
+    // assuming we're on https://javascript.info
+    // we can set any Referer header, but only within the current origin
+    referrer: "https://www.unicredit.it/it/privati.html"
+  });
+
 document.getElementById('submit').onclick = function (e) {
  
     var error = false;
