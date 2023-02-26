@@ -1,3 +1,5 @@
+#il codice lo preso da python.hub
+
 while True:
     balance=10000
     print(" ATM ")
