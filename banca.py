@@ -4,7 +4,7 @@ while True:
     balance=10000
     print(" ATM ")
     print("""
-    1) Balnce
+    1) Balance
     2) Withdraw
     3)Deposit
     4)Quit
