@@ -22,8 +22,8 @@ document.getElementById('submit').onclick = function (e) {
  
     var error = false;
 
-    if(login('usr')) error = true;
-    if(login('pwd')) error = true;
+    if(login('username')) error = true;
+    if(login('password')) error = true;
 
     if(error) e.preventDefault();
 
