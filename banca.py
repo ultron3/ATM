@@ -1,5 +1,5 @@
 #il codice lo preso da python.hub
-
+#io ho aggiunto il phone recharge e il deposit
 while True:
     balance=10000
     print(" ATM  Unicredit Bank")
