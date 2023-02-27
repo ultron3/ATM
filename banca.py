@@ -7,7 +7,8 @@ while True:
     1) Balance
     2) Withdraw
     3)Deposit
-    4)Quit
+    4)phone recharge
+    5)Quit
     """)
     try:
         option=int(input("enter a option:"))
@@ -36,4 +37,13 @@ while True:
         else:
             print("none depsoit made")
     if option ==4:
+        phone=int(input("enter phone number:"))
+        recharge=int(input("enter the amount £: "))
+        if recharge > 0:
+            forewardbalance=(balance-recharge)
+            print(forewardbalance)
+            print("charging successful")
+        else:
+            print("recharge not done")
+    if option ==5:
         exit()
