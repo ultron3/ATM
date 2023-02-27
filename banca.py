@@ -10,10 +10,10 @@ while True:
     4)Quit
     """)
     try:
-        option=int(input("inserisci un opzione:"))
+        option=int(input("enter a option:"))
     except Exception as e:
         print("error",e)
-        print("invia 1,2,3 or 4 only")
+        print("enter 1,2,3 or 4 only")
         continue
     if option ==1:
         print("balance £",balance)
