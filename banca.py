@@ -22,6 +22,7 @@ while True:
         Withdraw=float(input("enter Withdraw amount £: "))
         if Withdraw>0:
             forewardbalance=(balance-Withdraw)
+            print(forewardbalance)
         elif Withdraw>balance:
             print("no funs in account")
         else:
