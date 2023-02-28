@@ -19,9 +19,9 @@ while True:
             option=int(input("enter a option:"))
             pin=int(input("enter  a pin: "))
             if pin==1234:
-                print("correct")
+                print("correct pin")
             else:
-                 print("error")
+                 print("error pin")
     except Exception as e:
             print("error",e,pin)
             print("enter 1,2,3 or 4 only")
@@ -51,14 +51,32 @@ while True:
             print("none depsoit made")
     
     if option ==4:
-        phone=int(input("enter phone number:"))
-        recharge=int(input("enter the amount £: "))
-        if recharge > 0:
-            forewardbalance=(balance-recharge)
-            print(forewardbalance)
-            print("charging successful")
-        else:
-            print("recharge not done")
-    
+        print("""
+        1) vodafone
+        2) tim
+        3)windtre
+        4)fastweb
+        """)
+        try:
+            option1=int(input("enter a option:"))
+            phone=int(input("enter phone number:"))
+            recharge=int(input("enter the amount £: "))
+            if recharge > 0:
+                forewardbalance=(balance-recharge)
+                print(forewardbalance)
+                print("charging successful")
+            else:
+                print("recharge not done")
+        except Exception as c:
+            print("error",c)
+            print("enter 1,2,3 or 4 ")
     if option ==5:
         exit()
+
+
+
+
+
+#L'istruzione try pone sotto controllo il blocco di codice associato. 
+# Se il blocco di codice viene eseguito correttamente, 
+# il controllo passa all'istruzione successiva al blocco except .
