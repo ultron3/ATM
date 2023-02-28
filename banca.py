@@ -3,19 +3,22 @@
 while True:
     balance=10000
     print(" ATM  Unicredit Bank")
+  
+    
     print("""
-    1) Balance
-    2) Withdraw
-    3)Deposit
-    4)phone recharge
-    5)Quit
-    """)
+        1) Balance
+        2) Withdraw
+        3)Deposit
+        4)phone recharge
+        5)Quit
+        """)
+    
     try:
-        option=int(input("enter a option:"))
+            option=int(input("enter a option:"))
     except Exception as e:
-        print("error",e)
-        print("enter 1,2,3 or 4 only")
-        continue
+            print("error",e)
+            print("enter 1,2,3 or 4 only")
+            continue
     if option ==1:
         print("balance £",balance)
     if option ==2:
