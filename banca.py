@@ -24,8 +24,10 @@ while True:
             print("error",e,pin)
             print("enter 1,2,3 or 4 only")
             continue
+    
     if option ==1:
         print("balance £",balance)
+   
     if option ==2:
         print("balance £",balance)
         Withdraw=float(input("enter Withdraw amount £: "))
@@ -36,6 +38,7 @@ while True:
             print("no funs in account")
         else:
             print("none made")
+    
     if option ==3:
         print("balance",balance)
         deposit=float(input("enter desposit amount £: "))
@@ -44,6 +47,7 @@ while True:
              print("forewarbalance £",forewardbalance)
         else:
             print("none depsoit made")
+    
     if option ==4:
         phone=int(input("enter phone number:"))
         recharge=int(input("enter the amount £: "))
@@ -53,5 +57,6 @@ while True:
             print("charging successful")
         else:
             print("recharge not done")
+    
     if option ==5:
         exit()
