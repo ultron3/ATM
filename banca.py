@@ -15,6 +15,11 @@ while True:
     
     try:
             option=int(input("enter a option:"))
+            pin=int(input("enter  a pin: "))
+            if pin==1234:
+                print("correct")
+            else:
+                 print("error")
     except Exception as e:
             print("error",e)
             print("enter 1,2,3 or 4 only")
