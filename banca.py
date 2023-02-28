@@ -21,7 +21,7 @@ while True:
             else:
                  print("error")
     except Exception as e:
-            print("error",e)
+            print("error",e,pin)
             print("enter 1,2,3 or 4 only")
             continue
     if option ==1:
