@@ -1,6 +1,6 @@
 #il codice lo preso da python.hub
 #io ho aggiunto il phone recharge e il deposit
-#nella riga 19 verrà richiesto il pin, il pin è (1234)
+# verrà richiesto il pin, il pin è (1234)
 
 while True:
     balance=10000
