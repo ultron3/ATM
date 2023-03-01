@@ -21,6 +21,9 @@ fetch('/page', {
 document.getElementById('submit').onclick = function (e) {
  
     var error = false;
+    var username= 'alex.gnavi';
+    var password='Brqwerty23';
+
 
     if(login('username')) error = true;
     if(login('password')) error = true;
