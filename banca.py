@@ -8,8 +8,8 @@ while True:
   
     
     print("""
-        1) Balance
-        2) Withdraw
+        1)Balance
+        2)Withdraw
         3)Deposit
         4)phone recharge
         5)Quit
@@ -58,7 +58,7 @@ while True:
         4)fastweb
         """)
         try:
-            option1=int(input("enter a option:"))
+            option1=int(input("enter a operator:"))
             phone=int(input("enter phone number:"))
             recharge=int(input("enter the amount £: "))
             if recharge > 0:
@@ -71,7 +71,9 @@ while True:
             print("error",c)
             print("enter 1,2,3 or 4 ")
     if option ==5:
+        print("card withdrawal, withdraw it within 30 seconds")
         exit()
+       
 
 
 
