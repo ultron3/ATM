@@ -8,7 +8,7 @@ while True:
   
     
     print("""
-        1)Balance
+        1)Balance        
         2)Withdraw
         3)Deposit
         4)phone recharge
