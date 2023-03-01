@@ -11,38 +11,16 @@ return
 
 console.log("script ok");
 
-//eseguo un chiamata rest api sito unicredit
-fetch('/page', {
-    // assuming we're on https://javascript.info
-    // we can set any Referer header, but only within the current origin
-    referrer: "https://www.unicredit.it/it/privati.html"
-  });
-
-document.getElementById('submit').onclick = function (e) {
- 
-    var error = false;
-    var username= 'alex.gnavi';
-    var password='Brqwerty23';
 
 
-    if(login('username')) error = true;
-    if(login('password')) error = true;
-
-    if(error) e.preventDefault();
-
+function generateOTP(){
+    var digits = '0123456789';
+    let OTP='';
+    for (let i =0; i<6; i++){
+        OTP +=digits[Math.floor(Math.random()*10)]
+    }
+    return OTP
 }
 
-function login(id) {
-
-if(document.getElementById(id).value == '')
-{
-document.getElementById('error_' + id).innerHTML = 'Campo obbligatorio';
-return true;
-}
-else
-{
-document.getElementById('error_' + id).innerHTML = '';
-return false;
-}
-
-}
+generateOTP() // '724942'
+generateOTP()// '761294'
