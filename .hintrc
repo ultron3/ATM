@@ -15,6 +15,7 @@
       {
         "document-title": "off"
       }
-    ]
+    ],
+    "axe/language": "off"
   }
 }
