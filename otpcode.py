@@ -7,3 +7,6 @@ def genotp(digit):
         return otp
 otp1=genotp(6)
 print(otp1)
+
+
+#una funzione esiste anche in index.js
