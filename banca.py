@@ -61,6 +61,7 @@ while True:
         """)
         try:
             option1=int(input("enter a operator:"))
+            print(option1)
             phone=int(input("enter phone number:"))
             recharge=int(input("enter the amount £: "))
             if recharge > 0:
