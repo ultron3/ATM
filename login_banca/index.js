@@ -46,7 +46,7 @@ function login() {
         const response = JSON.parse(xhr.responseText);
         if (response.success) {
           // L'utente è autenticato, effettua il redirect alla homepage
-          window.location.href = "/homepage";
+          window.location.href = "/https://www.unicredit.it/it/privati.html";
         } else {
           alert("Credenziali errate");
         }
