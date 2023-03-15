@@ -38,7 +38,7 @@ function login() {
     }
     
     // Effettuare la chiamata AJAX per verificare le credenziali dell'utente
-    const xhr = new XMLHttpRequest();
+    const xhr = new htMLHttpRequest();
     xhr.open("POST", "/login");
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.onreadystatechange = function() {

@@ -59,7 +59,7 @@ body{
   .box input[type = "text"]:focus,.box input[type = "password"]:focus{
     width: 280px;
      -webkit-animation: 9s colorChange alternate;
-    transition height: 0.3s, width: 0.3s 0.1s
+    transition height: 0.3s, width: 0.3s 0.1s;
     input:focus ~ .border
     
   }
