@@ -3,7 +3,6 @@
 # verrà richiesto il pin, il pin è (1234)
 #alcune cose sono da aggiornare alla versione python 3.11 perchè durante l'esecuzione sono presenti dei bug
 
-
 while True:
     balance=10000
     print(" ATM  Unicredit Bank")
@@ -70,6 +69,7 @@ while True:
                 print("charging successful")
                 #importo la libreria win10toast che consente di inviare le notifiche windows
                 #per la ricarica telefonica invio un notifica
+                #questa libreria è da aggiornare quando si fa l'update a python 3.11
                 import win10toast
                 toaster = win10toast.ToastNotifier()
                 toaster.show_toast("charging successful", duration=10) 
