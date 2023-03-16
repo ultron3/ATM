@@ -68,6 +68,10 @@ while True:
                 forewardbalance=(balance-recharge)
                 print(forewardbalance)
                 print("charging successful")
+                
+                import win10toast
+                toaster = win10toast.ToastNotifier()
+                toaster.show_toast("charging successful", duration=10)
             else:
                 print("recharge not done")
         except Exception as c:
