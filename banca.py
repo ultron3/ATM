@@ -68,10 +68,11 @@ while True:
                 forewardbalance=(balance-recharge)
                 print(forewardbalance)
                 print("charging successful")
-                
+                #importo la libreria win10toast che consente di inviare le notifiche windows
+                #per la ricarica telefonica invio un notifica
                 import win10toast
                 toaster = win10toast.ToastNotifier()
-                toaster.show_toast("charging successful", duration=10)
+                toaster.show_toast("charging successful", duration=10) 
             else:
                 print("recharge not done")
         except Exception as c:
