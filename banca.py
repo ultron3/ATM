@@ -1,7 +1,7 @@
 #il codice lo preso da python.hub
 #io ho aggiunto il phone recharge,il deposit e la richiesta del pin
 # verrà richiesto il pin, il pin è (1234)
-#alcune cose sono da aggiornare alla versione python 3.11 perchè durante l'esecuzione sono presenti dei bug
+#alcune cose sono da aggiornare, FIXME: durante l'esecuzione sono presenti dei bug
 
 while True:
     balance=10000
