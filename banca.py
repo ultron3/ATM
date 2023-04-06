@@ -43,11 +43,12 @@ while True:
             print("none made")
     
     if option ==3:
-        print("balance",forewardbalance)
+        print("balance",balance)
         deposit=float(input("enter desposit amount £: "))
         if deposit>0:
-             forewardbalance=(balance+deposit)
-             print("forewarbalance £",forewardbalance)
+            forewardbalance=(balance+deposit)
+            
+            print("forewarbalance £",forewardbalance)
         else:
             print("none depsoit made")
     
